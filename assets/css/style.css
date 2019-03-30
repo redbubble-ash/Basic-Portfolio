@@ -10,6 +10,7 @@ html{
     height: 100%;
 
 }
+
 body{
     margin: auto;
     padding: 0;
@@ -28,10 +29,9 @@ nav{
     background-color: #ffffff;
     height:100px;
     width: 960px;
-    margin: 0;
+    margin: auto;
     padding: 0;
     position: relative;
-    left: 20%;
 
 }
 .my_name{
@@ -70,28 +70,39 @@ nav ul li a{
     text-align: center;
 }
 
-.main_content{
-    margin: 0;
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color:#666666;
+    text-align: center;
+    color: white;
+    border-top:6px solid #4aaaa5;
+  }
+
+
+.index #main_content{
+    margin: auto;
     padding: 0;
     background: #ffffff;
     width: 960px;
     position: relative;
-    left: 20%;
-    right: 25%;
-    height: 480px;
+    height: 520px;
     
 
 
-}
+} 
 
- .add_border{
+ .index #add_border{
      display: block;
      position:relative;
      margin:20px;
-     paddding:20px;
+     padding:20px;
      }
      
-h2{
+.index h1{
     position: relative;
     top: 10px;
     left: 10px;
@@ -104,30 +115,107 @@ h2{
 }
 
 
-img{
+.index img{
     float:left;
     width: 200px;
     height: 250px;
     float: left;
-    margin: 5px;
-    padding: 5px;
+    margin: 10px;
+    padding: 10px;
 
 
 }
 
 
-p{
+.index p{
     line-height: 30px;
 }
 
-.footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
-    background-color:#666666;
-    text-align: center;
-    color: white;
-    border-top:6px solid #4aaaa5;
-  }
+
+.contact #contact_info{
+    margin: auto;
+    padding: 0;
+    background: #ffffff;
+    width: 960px;
+    position: relative;
+    height: 480px;
+    
+
+
+} 
+
+ .contact #add_border{
+     display: block;
+     position:relative;
+     margin:20px;
+     padding:20px;
+     }
+
+  .contact h1{
+        position: relative;
+        top: 10px;
+        left: 10px;
+        color: #4aaaa5;
+        font-size: xx-large;
+        font-weight: bold;
+        display: dark;
+        height: 60px;
+        border-bottom: 2px solid #bdb4b4;
+    }
+    
+    form {
+        /* Just to center the form on the page */
+        margin: 0 auto;
+        padding: 1em;
+      }
+      
+      form div + div {
+        margin-top: 1em;
+      }
+      
+      label {
+        /* To make sure that all labels have the same size and are properly aligned */
+        width: 90px;
+        text-align: right;
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #777777
+      }
+      
+      input, textarea {
+        /* To make sure that all text fields have the same font settings
+           By default, textareas have a monospace font */
+        font: 13px Arial, Helvetica, sans-serif #777777;
+      
+        /* To give the same size to all text fields */
+        width: 100%;
+        box-sizing: border-box;
+      
+        /* To harmonize the look & feel of text field border */
+        border: 1px solid rgb(202, 198, 198);
+        height: 30px;
+        padding: 12px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:#777777;
+        text-align: left;
+      }
+
+
+      textarea {
+        /* To properly align multiline text fields with their labels */
+        vertical-align: top;
+      
+        /* To give enough room to type some text */
+        height: 20px;
+      }
+
+      input[type=submit] {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border: radius 0;
+        text-align: center;
+        width: 80px;
+        line-height: 50%;
+      }
