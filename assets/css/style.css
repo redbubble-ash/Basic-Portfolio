@@ -219,3 +219,142 @@ nav ul li a{
         width: 80px;
         line-height: 50%;
       }
+
+      .portfolio #add_border{
+        display: block;
+        position:relative;
+        margin:20px;
+        padding:20px;
+        }
+   
+     .portfolio h1{
+           position: relative;
+           top: 10px;
+           color: #4aaaa5;
+           font-size: xx-large;
+           font-weight: bold;
+           display: dark;
+           height: 60px;
+           border-bottom: 2px solid #bdb4b4;
+       }
+
+       .portfolio #Portfolio_pix{
+        margin: auto;
+        padding: 0;
+        background: #ffffff;
+        width: 960px;
+        position: relative;
+        height: 520px;
+       }
+
+     .portfolio #P1{
+         float: left;
+         margin: auto;
+         padding: 20px;
+
+
+     }
+
+     .portfolio #P2{
+        float: left;
+        margin: auto;
+        padding: 20px;
+     }
+
+     .portfolio #P3{
+        float: left;
+        margin: auto;
+        padding: 20px;
+     }
+
+     .portfolio #P4{
+        float: left;
+        margin: auto;
+        padding: 20px;
+     }
+
+     .portfolio #P5{
+        float: left;
+        margin: auto;
+        padding: 20px;
+     }
+
+    .portfolio #P1 h2{
+         float: left;
+         margin: auto;
+         display: block;
+         width: 200px;
+         height: 40px;
+         z-index: 100;
+         position: absolute;
+         bottom:-99%;  
+         background-color: #4aaaa5;
+         text-align: center;
+         color: #ffffff;
+         line-height: 180%;
+    
+     }
+
+     .portfolio #P2 h2{
+        float: left;
+        margin: auto;
+        display: block;
+        width: 200px;
+        height: 40px;
+        z-index: 100;
+        position: absolute;
+        bottom:-99%;  
+        background-color: #4aaaa5;
+        text-align: center;
+        color: #ffffff;
+        line-height: 180%;
+   
+    }
+    .portfolio #P3 h2{
+        float: left;
+        margin: auto;
+        display: block;
+        width: 200px;
+        height: 40px;
+        z-index: 100;
+        position: absolute;
+        bottom:-99%;  
+        background-color: #4aaaa5;
+        text-align: center;
+        color: #ffffff;
+        line-height: 180%;
+   
+    }
+
+    .portfolio #P4 h2{
+        float: left;
+        margin: auto;
+        display: block;
+        width: 200px;
+        height: 40px;
+        z-index: 100;
+        position: absolute;
+        bottom:-235%;  
+        background-color: #4aaaa5;
+        text-align: center;
+        color: #ffffff;
+        line-height: 180%;
+   
+    }
+
+    .portfolio #P5 h2{
+        float: left;
+        margin: auto;
+        display: block;
+        width: 200px;
+        height: 40px;
+        z-index: 100;
+        position: absolute;
+        bottom:-235%;  
+        background-color: #4aaaa5;
+        text-align: center;
+        color: #ffffff;
+        line-height: 180%;
+
+   
+    }
