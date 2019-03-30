@@ -14,7 +14,7 @@ html{
 body{
     margin: auto;
     padding: 0;
-    background-color:#cccccc;
+    background-image:url("leaves-pattern.png");
 }
 
 .top_bar{
