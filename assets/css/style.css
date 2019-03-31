@@ -70,6 +70,12 @@ nav ul li a{
     text-align: center;
 }
 
+li a:hover {
+    background-color: lightpink;
+    color: grey;
+    
+  }
+
 .footer {
     position: absolute;
     right: 0;
